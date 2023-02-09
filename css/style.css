@@ -10,7 +10,7 @@ body{
     grid-template: 
     "header" auto
     "main" auto
-    "footer" 180px /
+    "footer" 200px /
     100%
     ;
     background-image: linear-gradient(0deg, rgba(219, 219, 219, 0.7), rgba(229, 229, 229, 0.9)
@@ -70,8 +70,6 @@ body{
     width: 50%;
 }
 .oferta-cursos__button{
-    background-color: white;
-    color: black;
     font-weight: 600;
     box-shadow: 0px 0px 0px 0px;
 }
@@ -255,6 +253,9 @@ body{
     align-items: center;
     color: white;
 }
+.footer__logotype{
+    width: 10%;
+}
 /*adaptación a extra large*/
 @media (max-width:1200px){
     .oferta-cursos{
@@ -295,11 +296,18 @@ body{
     .about-me{
         padding: 2px;
     }
+    .about-me__h2{
+        font-size: 3.1em;
+        font-weight: 800;
+    }
     .form-control{
         width: 50%;
     }
     .footer .insta{
         width: 4%;
+    }
+    .footer__logotype{
+        width: 10%;
     }
 }
 /* adaptación a large*/
@@ -332,7 +340,7 @@ body{
         padding: 1px;
     }
     .about-me__h2{
-        font-size: 1.7em;
+        font-size: 1.9em;
     }
     .about-me__legend{
         font-size: 1.2em;
@@ -348,6 +356,9 @@ body{
     .footer .insta{
         width: 4%;
         padding: 3px;
+    }
+    .footer__logotype{
+        width: 17%;
     }
 }
 
@@ -374,6 +385,13 @@ body{
     .ventajas-consulteccnia__p{
         font-size: 1.3em;
     }
+    .about-me__h2{
+        font-size: 1.4em;
+        font-weight: 800;
+    }
+    .about-me__legend{
+        font-size: 0.9em;
+    }
     .card{
         background-color: rgb(222,222,222);
         border: 1px solid black;
@@ -381,5 +399,8 @@ body{
     }
     .cursos .card-title{
         height: 110px;
+    }
+    .footer__logotype{
+        width: 20%;
     }
 }
