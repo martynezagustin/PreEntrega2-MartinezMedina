@@ -1,0 +1,368 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+}
+.body{
+    display: grid;
+    grid-template: 
+    "header" auto
+    "main" auto
+    "footer" 180px /
+    100%
+    ;
+}
+.header{
+    grid-area: header;
+    max-width: 100%;
+}
+.header a:link{
+    font-weight: 500;
+}
+.main{
+    grid-area: main;
+}
+.navegador-gris{
+    background-color: rgb(217, 217, 217);
+    box-shadow: 0px 0px 5px 1px gray;
+}
+
+.navegador-gris .nav-link{
+    margin-left: 5px;
+}
+.navegador-gris .nav-link:hover{
+    background: linear-gradient(190deg, black, rgb(63, 63, 63));
+    color: white;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+.navegador-gris .active:hover{
+    background: linear-gradient(190deg, black, rgb(63, 63, 63));
+    color: white;
+    border-radius: 4px;
+}
+.oferta-cursos{
+    background-color: rgb(205, 205, 205);
+    height: 400px;
+}
+.oferta-cursos__h2{
+    font-weight: 800;
+    font-weight: 700;
+    font-size: 2.4em;
+    margin-top: 10px;
+}
+.oferta-cursos__p{
+    font-weight: 300;
+    width: 65%;
+    font-size: 1.4em;
+}
+.oferta-cursos__container{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    position: relative;
+}
+.oferta-cursos__img{
+    width: 50%;
+}
+.oferta-cursos__button{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0px 0px 0px 0px;
+}
+.somos-consulteccnia{
+    padding: 15px;
+}
+.somos-consulteccnia__h1{
+    font-size: 3.8em;
+    padding: 5px;
+    font-weight: 800;
+}
+.somos-consulteccnia__p{
+    font-size: 2.2em;
+}
+.beneficios-consulteccnia{
+    max-width: 100%;
+    margin: 60px 0px 60px 0px;
+}
+.beneficios-consulteccnia__caja{
+    box-shadow: 2px 0px 8px 1px gray;
+    border-radius: 9px;
+    max-width: 28%;
+    background-color: rgb(255, 255, 255);
+}
+.beneficios-consulteccnia__caja:hover{
+    box-shadow: 0px 2px 8px 1px gray;
+    border-radius: 9px;
+    background-color: rgb(193, 193, 193);
+    transition: .5s all;
+}
+.beneficios-consulteccnia__p{
+    font-size: 1.3em;
+}
+.beneficios_consulteccnia__h3{
+    font-weight: 700;
+    font-size: 1.9em;
+}
+.beneficios-consulteccnia .row{
+    max-width: 100%;
+}
+.ventajas-consulteccnia__h2{
+    text-align: center;
+    font-weight: 900;
+    margin: 25px;
+    font-size: 3.7em;
+}
+.ventajas-consulteccnia__h3{
+    font-weight: 800;
+    color: rgb(189, 189, 189);
+}
+.ventajas-consulteccnia__contenedor{
+    background-color: rgb(72, 72, 72);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px lightgray;
+    text-align: center;
+}
+.ventajas-consulteccnia__contenedor:hover{
+    background-color: rgb(0, 0, 0);
+    transition: .5s all;
+    box-shadow: 0px 0px 10px 3px grey;
+}
+.ventajas-consulteccnia__img-ventaja{
+    width: 10%;
+}
+.ventajas-consulteccnia__p{
+    font-size: 1.5em;
+    color: white;
+}
+.ubicacion{
+    background-color: black;
+    color: white;
+    width: 60%;
+    border-radius: 9px;
+}
+.ubicacion__h2{
+    font-size: 2.1em;
+    font-weight: bolder;
+}
+.cursos{
+    max-width: 100%;
+}
+.cursos .card-title{
+    font-size: 1.5em;
+    height: 90px;
+}
+.cursos .col{
+    padding-right: 0%;
+}
+.card{
+    background-color: rgb(222,222,222);
+    border: 1px solid black;
+    width: 21rem;
+}
+.card:hover{
+    box-shadow: 0px 0px 15px 5px gray;
+    transition: .5s all;
+    background-color: rgb(21,21,21);
+    color: lightgrey;
+}
+.card-text{
+    font-size: 0.97em;
+}
+.h1__bold{
+    font-weight: 800;
+}
+.servicios{
+    max-width: 100%;
+}
+.servicios .col{
+    padding-right: 0%;
+}
+.servicios .card-title{
+    font-size: 1.5em;
+    height: 90px;
+}
+.about-me{
+    padding: 5px;
+}
+.about-me__h2{
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.about-me__p{
+    font-size: 1.3em;
+}
+.about-me__img{
+    max-width: 90%;
+    box-shadow: 0px 0px 4px 2px gray;
+}
+.about-me__legend{
+    font-size: 1.3em;
+}
+.formulario{
+    background-color: rgb(215, 215, 215);
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 2px gray;
+}
+.form-control{
+    width: 50%;
+    border-bottom: 1px solid gray;
+}
+.form-label{
+    font-weight: 800;
+}
+.footer{
+    padding: 20px 0px 15px 5px;
+    grid-area: footer;
+    background-color: rgb(210, 210, 210);
+}
+.footer p{
+    color: rgb(0, 0, 0);
+}
+.footer .enlace-insta{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+.footer .insta{
+    width: 2%;
+    padding: 3px;
+}
+.footer .creditos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+/*adaptación a extra large*/
+@media (max-width:1200px){
+    .oferta-cursos{
+        height: auto;
+    }
+    .oferta-cursos__h2{
+        font-weight: 800;
+        width: 80%;
+        font-size: 1.6em;
+        margin-top: 10px;
+    }
+    .oferta-cursos__p{
+        font-size: 1.4em;
+    }
+    .beneficios-consulteccnia{
+        grid-area: beneficios;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .beneficios-consulteccnia__caja{
+        box-shadow: 0px 0px 8px 1px gray;
+        border-radius: 9px;
+        max-width: 75%;
+    }
+    .beneficios-consulteccnia__p{
+        font-size: 1.6em;
+    }
+    .beneficios_consulteccnia__h3{
+        font-weight: 700;
+        font-size: 1.9em;
+    }
+    .card{
+        background-color: rgb(222,222,222);
+        border: 1px solid black;
+        width: 19rem;
+    }
+    .about-me{
+        padding: 2px;
+    }
+    .form-control{
+        width: 50%;
+    }
+    .footer .insta{
+        width: 4%;
+    }
+}
+/* adaptación a large*/
+@media only screen and (min-width:768px) and (max-width:992px){
+    .oferta-cursos{
+        display: flex;
+        flex-direction: column;
+    }
+    .somos-consulteccnia__h1{
+        font-size: 2.1em;
+    }
+    .somos-consulteccnia__p{
+        font-size: 1.5em;
+    }
+    .beneficios-consulteccnia__caja{
+        box-shadow: 0px 0px 8px 1px gray;
+        border-radius: 9px;
+        max-width: 70%;        
+    }
+    .beneficios_consulteccnia__h3{
+        font-size: 2em;
+    }
+    .beneficios-consulteccnia__p{
+        font-size: 1.6em;
+    }
+    .ventajas-consulteccnia__img-ventaja{
+        width: 20%;
+    }
+    .about-me{
+        padding: 1px;
+    }
+    .about-me__h2{
+        font-size: 1.7em;
+    }
+    .about-me__legend{
+        font-size: 1.2em;
+    }
+    .card{
+        background-color: rgb(222,222,222);
+        border: 1px solid black;
+        width: 20rem;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .footer .insta{
+        width: 4%;
+        padding: 3px;
+    }
+}
+
+/*adaptando medidas a extra small*/
+@media only screen and (min-width: 270px) and (max-width: 576px){
+    .somos-consulteccnia__h1{
+        font-size: 1.6em;
+    }
+    .somos-consulteccnia__p{
+        font-size: 1.4em;
+    }
+    .beneficios-consulteccnia__caja{
+        width: 100%;
+    }
+    .beneficios_consulteccnia__h3{
+        font-size: 1.2em;
+    }
+    .beneficios-consulteccnia__p{
+        font-size: 1.2em;
+    }
+    .ventajas-consulteccnia__h2{
+        font-size: 1.6em;
+    }
+    .ventajas-consulteccnia__p{
+        font-size: 1.3em;
+    }
+    .card{
+        background-color: rgb(222,222,222);
+        border: 1px solid black;
+        width: 15.7rem;
+    }
+    .cursos .card-title{
+        height: 110px;
+    }
+}
