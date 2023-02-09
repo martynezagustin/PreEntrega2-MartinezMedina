@@ -103,6 +103,7 @@ body{
     margin: 60px 0px 60px 0px;
     background-image: linear-gradient(0deg, rgba(107, 107, 107, 0.6), rgba(0,0,0,0.9)),
     url("../assets/imgs/photo-1639322537504-6427a16b0a28.jfif");
+    background-attachment: fixed;
 }
 .beneficios-consulteccnia__caja{
     box-shadow: 2px 0px 8px 1px gray;
@@ -113,7 +114,7 @@ body{
 .beneficios-consulteccnia__caja:hover{
     box-shadow: 0px 2px 8px 1px gray;
     border-radius: 9px;
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(215, 215, 215);
     transition: .5s all;
 }
 .beneficios-consulteccnia__p{
@@ -137,7 +138,7 @@ body{
 }
 .ventajas-consulteccnia__h3{
     font-weight: 800;
-    color: rgb(231, 231, 231);
+    color: rgb(255, 255, 255);
 }
 .ventajas-consulteccnia__contenedor{
     background-image: linear-gradient(20deg, rgba(0,0,0,0.8), rgba(0,0,0,1)), url("../assets/imgs/city-map.jpg");
@@ -148,9 +149,8 @@ body{
     text-align: center;
 }
 .ventajas-consulteccnia__contenedor:hover{
-    background-color: rgb(0, 0, 0);
     transition: .5s all;
-    box-shadow: 0px 0px 10px 3px grey;
+    box-shadow: 0px 0px 10px 3px rgb(35, 35, 35);
 }
 .ventajas-consulteccnia__img-ventaja{
     width: 10%;
