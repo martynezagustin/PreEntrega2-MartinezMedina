@@ -13,6 +13,12 @@ body{
     "footer" 180px /
     100%
     ;
+    background-image: linear-gradient(0deg, rgba(232, 232, 232, 0.7), rgba(244, 244, 244, 0.9)
+    ), 
+    url("../assets/imgs/istockphoto-1212342896-170667a.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .header{
     grid-area: header;
@@ -44,8 +50,10 @@ body{
     border-radius: 4px;
 }
 .oferta-cursos{
-    background-color: rgb(205, 205, 205);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/imgs/fondo-digital-blanco-abstracto-capas-d-109980766.jpg");
     height: 400px;
+    background-position: center center;
+    box-shadow: 0px 0px 12px 5px gray;
 }
 .oferta-cursos__h2{
     font-weight: 800;
@@ -60,7 +68,7 @@ body{
 }
 .oferta-cursos__container{
     padding: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.4em;
     position: relative;
 }
@@ -87,6 +95,9 @@ body{
 .beneficios-consulteccnia{
     max-width: 100%;
     margin: 60px 0px 60px 0px;
+    background-image: linear-gradient(0deg, rgba(107, 107, 107, 0.6), rgba(0,0,0,0.9)),
+    url("../assets/imgs/photo-1639322537504-6427a16b0a28.jfif");
+    background-attachment: fixed;
 }
 .beneficios-consulteccnia__caja{
     box-shadow: 2px 0px 8px 1px gray;
@@ -118,7 +129,7 @@ body{
 }
 .ventajas-consulteccnia__h3{
     font-weight: 800;
-    color: rgb(189, 189, 189);
+    color: rgb(231, 231, 231);
 }
 .ventajas-consulteccnia__contenedor{
     background-color: rgb(72, 72, 72);
