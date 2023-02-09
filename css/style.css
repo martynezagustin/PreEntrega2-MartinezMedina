@@ -229,19 +229,22 @@ body{
 .footer{
     padding: 20px 0px 15px 5px;
     grid-area: footer;
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(75, 75, 75);
 }
 .footer p{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .footer .enlace-insta{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 800;
 }
 .footer .insta{
     width: 2%;
     padding: 3px;
+}
+.footer hr{
+    color: white;
 }
 .footer .creditos{
     display: flex;
