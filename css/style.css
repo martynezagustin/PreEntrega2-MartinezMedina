@@ -506,9 +506,17 @@ body{
     .cursos .card-title{
         height: 110px;
     }
-
+    
+    /*títulos de las cards en servicios*/
+    .servicios .card-title{
+        font-size: 1.5em;
+        height: 110px;
+    }
     /*el logotipo del footer al final*/
     .footer__logotype{
-        width: 20%;
+        width: 50%;
+    }
+    .footer .insta{
+        width: 10%;
     }
 }
