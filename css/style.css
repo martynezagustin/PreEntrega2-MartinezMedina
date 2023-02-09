@@ -13,7 +13,7 @@ body{
     "footer" 180px /
     100%
     ;
-    background-image: linear-gradient(0deg, rgba(232, 232, 232, 0.7), rgba(244, 244, 244, 0.9)
+    background-image: linear-gradient(0deg, rgba(219, 219, 219, 0.7), rgba(229, 229, 229, 0.9)
     ), 
     url("../assets/imgs/istockphoto-1212342896-170667a.jpg");
     background-repeat: no-repeat;
@@ -30,11 +30,6 @@ body{
 .main{
     grid-area: main;
 }
-.navegador-gris{
-    background-color: rgb(217, 217, 217);
-    box-shadow: 0px 0px 5px 1px gray;
-}
-
 .navegador-gris .nav-link{
     margin-left: 5px;
 }
@@ -53,7 +48,6 @@ body{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url("../assets/imgs/fondo-digital-blanco-abstracto-capas-d-109980766.jpg");
     height: 400px;
     background-position: center center;
-    box-shadow: 0px 0px 12px 5px gray;
 }
 .oferta-cursos__h2{
     font-weight: 800;
@@ -151,14 +145,20 @@ body{
     color: white;
 }
 .ubicacion{
-    background-color: black;
-    color: white;
-    width: 60%;
+    background: linear-gradient(180deg, black, rgb(54, 54, 54));
     border-radius: 9px;
+    box-shadow: 0px 0px 9px 10px gray;
 }
-.ubicacion__h2{
-    font-size: 2.1em;
+.ubicacion h2{
     font-weight: bolder;
+    color: white;
+    font-size: 2.3em;
+}
+.ubicacion__p{
+    color: white;
+}
+.ubicacion iframe{
+    max-width: 100%;
 }
 .cursos{
     max-width: 100%;
@@ -245,6 +245,9 @@ body{
 }
 .footer hr{
     color: white;
+}
+.footer a{
+    color: whitesmoke;
 }
 .footer .creditos{
     display: flex;
